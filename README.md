@@ -8,3 +8,8 @@ Estudo avançado dos conceitos da linguagem JavaScript
 <kbd>padding</kbd> <kbd>width</kbd> <kbd>height</kbd> <kbd>vw-vh</kbd> <kbd>flex-box</kbd> <kbd>DOM</kbd> <kbd>acessar elementos</kbd> <kbd>document</kbd>
 >
 > [**Visualize no CodePen**](https://codepen.io/luc-gh/pen/rNKGWrv)
+
+**Objeto Document** >>> [<code><b>HTML</code></b>](DOM/Objeto%20Document/index.html) - [<code><b>CSS</code></b>](DOM/Objeto%20Document/style.css)  -  [<code><b>JS</code></b>](DOM/Objeto%20Document/main.js)
+> Tópicos: <kbd>table</kbd> <kbd>tr-td</kbd> <kbd>border-collapse</kbd> <kbd>line-height</kbd> <kbd>ltr-rtl</kbd> <kbd>span</kbd> <kbd>section</kbd> <kbd>.value</kbd> <kbd>button</kbd> <kbd>p</kbd> <kbd>position</kbd> <kbd>width</kbd> <kbd>text-align</kbd> <kbd>cursor</kbd> <kbd>margin-padding</kbd> <kbd>flex-box</kbd> <kbd>estilo adicionado com js</kbd> <kbd>translateY</kbd> <kbd>min-width</kbd> <kbd>font</kbd> <kbd>document</kbd> <kbd>getElementById</kbd> <kbd>createElement</kbd> <kbd>appendChild</kbd> <kbd>removeChild</kbd> <kbd>createAttribute</kbd> <kbd>setAttributeNode</kbd> <kbd>getElementsByTagName</kbd> <kbd>createTextNode</kbd> <kbd>parentNode</kbd> <kbd>DOM</kbd> <kbd>direcionar estilo (.style)</kbd>
+>
+> [**Visualize no CodePen**](https://codepen.io/luc-gh/pen/bGKaVoq)
