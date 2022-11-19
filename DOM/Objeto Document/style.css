@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	align-content: space-around;
+	align-items: center;
+	position: relative;
+	justify-items: center;
+}
+
+/*Section Prop*/
+.Prop{
+	margin: 10px;
+	padding: 3px;
+}
+.tabela{
+	border: 1px solid #000;
+	border-collapse: collapse;  /*padding de borda da tabela nulo*/
+	line-height: 27px;
+	font-family: sans-serif;
+}
+.tabela th{
+	border: 1px solid #000;
+}
+.tabela tr{
+	display: table-row;
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+}
+.tabela td{
+	display: table-cell;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+/*Section getElementById*/
+.getElementById{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+	align-items: center;
+	width: 200px;
+	height: 20px;
+	margin-left: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.getElementById .botao{
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	transform: translateX(32px);
+}
+.getElementById .botao button{
+	color: #fff;
+	background-color: #333;
+	padding: 3px;
+	margin: 3px;
+	display: table-row;
+	border: 1px solid #222;
+	cursor: pointer;
+}
+
+/*Section veiculos*/
+.veiculos{
+	display: flex;
+	top: 2em;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+	padding: 3px;
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 8px 5px 8px 9px;
+	width: fit-content;
+}
+.veiculos .input{
+	width: 75%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Arial";
+	height: 20px;
+	margin: 3px;
+}
+.veiculos ul{
+	text-justify: distribute-all-lines;
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	direction: ltr;
+	margin: 2px;
+}
+.veiculos .input button{
+	min-width: 75px;
+	cursor: pointer;
+	transition: 0.37s;
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bold;
+	border: 1px solid #111;
+	background-color: #222;
+}
+.veiculos .input button:hover{
+	color: #0ff;
+	background-color: #444;
+	font-size: 82%;
+	min-width: 80px;
+}
+.veiculos .input button:active{
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+}
+
+/*Section attr*/
+#attr{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: fit-content;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+	padding: 10px;
+	transform: translateY(20px);
+	font-family: sans-serif;
+	color: #111;
+	transition: 0.6s;
+}
+#attr button{
+	width: 105%;
+	padding: 2px;
+	cursor: pointer;
+}
+.input input{
+	width: 270px;
+	padding: 3px;	
+}
+.novoAtrr{  /* adicionado a seção de id = 'atrr', através do js */
+	color: #f00;
+	font-weight: bold;
+}
+
+/*Section texto*/
+#texto{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin: 20px 10px 10px 10px;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-around;
+	font-family: "Arial";
+}
+#texto input{
+	width: 175%;
+	padding: 3px;
+}
+#texto button{
+	padding: 2px;
+	margin: 6px 3px 3px 3px;
+	cursor: pointer;
+}
+#texto p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Section lista*/
+#lista{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 5px;
+	padding: 4px;
+	font-family: "Arial";
+}
+#lista .b{
+	display: inline-flex;
+	align-content: space-around;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#lista .b button{
+	display: flex;
+	width: fit-content;
+	margin: 3px;
+	padding: 4px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#lista #li{
+	display: flex;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	padding: 3px;
+	margin: 3px;
+}

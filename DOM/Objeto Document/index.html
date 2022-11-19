@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Arnaldo Lucas (luc-gh)">
+		<title>Objeto Document</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="main.js" defer></script>
+	</head>
+	<body>
+		<section class="Prop">
+			<table class="tabela">
+	  			<tr>
+			    	<th>Propriedade</th>
+			    	<th>Descrição</th>
+	  			</tr>
+	  			<tr>
+			    	<td><span>documentElement</span></td>
+			    	<td>Captura o elemento raiz &lt;html&gt; de um documento HTML.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>getElementById</span></td>
+			    	<td>Busca um elemento da página Web com o uso do atributo id do elemento.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>createElement</span></td>
+			    	<td>Cria um nodo elemento na página.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>createAttribute</span></td>
+			   		<td>Cria um nodo atributo na página.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>createTextNode</span></td>
+			    	<td>Cria um nodo texto na página.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>getElementsByTagName</span></td>
+			    	<td>Retorna um array dos elementos com o mesmo nome.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>appendChild</span></td>
+			    	<td>Insere um novo elemento filho.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>removeChild</span></td>
+			    	<td>Remove um elemento filho.</td>
+	  			</tr>
+	  			<tr>
+			    	<td><span>parentNode</span></td>
+			    	<td>Retorna o nodo pai de um nodo.</td>
+	  			</tr>
+			</table>
+		</section>
+		<section class="getElementById">
+			<p id="para1">Algum texto de exemplo</p>
+			<section class="botao">
+				<button onclick="mudarCor('blue');">Azul</button>
+  				<button onclick="mudarCor('red');">Vermelho</button>
+  			</section>
+		</section>
+		<section class="veiculos">
+			<div class="input">
+				<input type="text" value="" id="txtVeiculo">
+				&nbsp
+				<button onclick="addLI(document.getElementById('txtVeiculo').value)">Adicionar</button>
+			</div>
+			<ul id="transp">
+				<li>Avião</li>
+				<li>Carro</li>
+				<li>Moto</li>
+			</ul>
+		</section>
+		<section id="attr">
+			<h1>Título de exemplo</h1>
+			<button onclick="novaCorAtrr()">Altere a cor do título clicando aqui</button>
+		</section>
+		<section id="texto">
+			<input type="text" value="" id="txtAdicionar">
+			<button onclick="adicionarTexto(document.getElementById('txtAdicionar').value)">Add</button>
+			<p id="p1">Textos: </p> <br>
+		</section>
+		<section id="lista">
+			<div class="b">
+				<button onclick="AR(1)">Adicionar</button>
+				<button onclick="AR(-1)">Remover</button>
+			</div>
+			<div id="li">
+				
+			</div>
+		</section>
+	</body>
+</html>
