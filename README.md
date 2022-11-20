@@ -1,5 +1,7 @@
 # js_advanced
-Estudo avançado dos conceitos da linguagem JavaScript
+<img height="37" src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png" />
+
+Estudo avançado dos conceitos da linguagem JavaScript, em associação com HTML e CSS.
 
 ### Códigos, conceitos abordados e visualização
 
