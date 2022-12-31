@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Arnaldo Lucas (luc-gh)">
+	<title>Eventos DOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js" defer></script>
+</head>
+<body>
+	<main class="main">
+		
+		<p class="MouseEvent-p">MouseEvent</p>
+
+		<div class="click">
+			<button id="botao">Evento</button>
+			<div id="m" class="m"> Texto qualquer </div>
+		</div>
+		<div class="md">
+			<p>Clique abaixo</p>
+			<div id="mousedown">
+				<div id="b1" class="b1">&nbsp</div>
+				<div id="b2" class="b2">&nbsp</div>
+				<div id="b3" class="b3">&nbsp</div>
+			</div>
+		</div>
+		<div class="md">
+			<div id="mouseup">
+				<div id="c1" class="c1">&nbsp</div>
+				<div id="c2" class="c2">&nbsp</div>
+				<div id="c3" class="c3">&nbsp</div>
+			</div>
+			<p>Clique acima</p>
+		</div>
+		<div id="dblclick">
+			<p class="dblclick-p" id="dblclick-p">Pressione duas vezes aqui</p>
+		</div>
+		<div class="mouseenter" onmouseenter="MouseEnter()">
+			<h4 class="h4-me" id="h4-me">texto</h4>
+		</div>
+		<div class="mouseoverout" id="mouseoverout">
+			Esse texto <br> 
+			serve apenas <br>
+			de exemplo
+		</div>
+
+		<p class="InputEvent-p">InputEvent</p>
+
+		<div id="input"> <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+			<label for="value"> Digite algo aqui: </label>
+			<input type="text" id="input-id" value="">
+		</div>
+
+		<p class="FocusEvent-p">FocusEvent</p>
+
+		<div id="focus">
+			<input type="text" class="i1 inputs">
+			<input type="date" class="i2 inputs">
+			<input type="number" class="i3 inputs">
+			<input type="color" class="i4 inputs">
+		</div>
+	</main>
+</body>
+</html>
