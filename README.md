@@ -24,7 +24,8 @@ Estudo avançado dos conceitos da linguagem JavaScript, em associação com HTML
 > - **Eventos**   
 >  <a href="DOM/Eventos/index.html"><b><i>HTML</b></i></a> - <a href="DOM/Eventos/style.css"><b><i>CSS</b></i></a> - <a href="DOM/Eventos/main.js"><b><i>JS</b></i></a> -> <a href="https://codepen.io/luc-gh/pen/ZEjWwMP"><b>Visualize no CodePen</b><a>   
 >  <kbd>div</kbd> <kbd>id</kbd> <kbd>class</kbd> <kbd>label</kbd> <kbd>input</kbd> <kbd>p</kbd>   
->  <kbd>flex-wrap</kbd> <kbd>display: grid</kbd> <kbd>grid-template-areas</kbd> <kbd>class - id (várias)</kbd> <kbd>.,#::{}</kbd> <kbd>grid-area</kbd> <kbd>fit-content</kbd> <kbd>font-weight</kbd> <kbd>text-shadow</kbd> <kbd>box-shadow</kbd>   
+>  <kbd>flex-wrap</kbd> <kbd>display: grid</kbd> <kbd>grid-template-areas</kbd> <kbd>class - id (várias)</kbd> <kbd>.,#::{}</kbd>   
+>  <kbd>grid-area</kbd> <kbd>fit-content</kbd> <kbd>font-weight</kbd> <kbd>text-shadow</kbd> <kbd>box-shadow</kbd>   
 >  <kbd>opacity</kbd> <kbd>place-items</kbd> <kbd>justify-self</kbd> <kbd>text-orientation</kbd> <kbd>text-decoration</kbd> <kbd>font-display: fallback</kbd> <kbd>conexão com js</kbd>   
 >  <kbd>MouseEvent</kbd> <kbd>InputEvent</kbd> <kbd>FocusEvent</kbd> <kbd>Events</kbd> <kbd>addEventListener</kbd>   
 >  <kbd>Click</kbd> <kbd>MouseDown</kbd> <kbd>MouseUp</kbd> <kbd>Double Click</kbd> <kbd>MouseEnter</kbd> <kbd>MouseOver</kbd> <kbd>MouseOut</kbd>   
