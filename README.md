@@ -40,3 +40,10 @@ Estudo avançado dos conceitos da linguagem JavaScript, em associação com HTML
 >
 
 -->
+
+> **Chamada de API**
+>
+> - **Exemplo simples**
+>  <a href="Chamada%20de%20API/index.html"><b><i>HTML</b></i></a> - <a href="Chamada%20de%20API/main.js"><b><i>JS</b></i></a>   
+>  <kbd>h3</kbd> <kbd>fetch</kbd> <kbd>.then</kbd> <kbd>.catch</kbd> <kbd>.json</kbd> <kbd>.error</kbd> <kbd>method/headers</kbd>   
+>
