@@ -48,7 +48,9 @@ Estudo avançado dos conceitos da linguagem JavaScript, em associação com HTML
 >  <kbd>h3</kbd> <kbd>fetch</kbd> <kbd>.then</kbd> <kbd>.catch</kbd> <kbd>.json</kbd> <kbd>.error</kbd> <kbd>method/headers</kbd>   
 
 
-> - **Storage**   
+> **Storage**   
+>
+> - **Utilidades (local/session)**   
 >  <a href="Storage/index.html"><b><i>HTML</b></i></a> - <a href="Storage/local.js"><b><i>JS (local)</b></i></a> - <a href="Storage/session.js"><i><b>JS (session)</b></i><a>   
 >  <kbd>double script imports</kbd> <kbd>script</kbd> <kbd>defer</kbd>   
 >  <kbd>console.log</kbd> <kbd>Storage</kbd> <kbd>localStorage</kbd> <kbd>sessionStorage</kbd> <kbd>getItem</kbd> <kbd>setItem</kbd>   
