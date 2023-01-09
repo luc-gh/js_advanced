@@ -46,4 +46,10 @@ Estudo avançado dos conceitos da linguagem JavaScript, em associação com HTML
 > - **Exemplo simples**   
 >  <a href="Chamada%20de%20API/index.html"><b><i>HTML</b></i></a> - <a href="Chamada%20de%20API/main.js"><b><i>JS</b></i></a>   
 >  <kbd>h3</kbd> <kbd>fetch</kbd> <kbd>.then</kbd> <kbd>.catch</kbd> <kbd>.json</kbd> <kbd>.error</kbd> <kbd>method/headers</kbd>   
->
+
+
+> - **Storage**   
+>  <a href="Storage/index.html"><b><i>HTML</b></i></a> - <a href="Storage/local.js"><b><i>JS (local)</b></i></a> - <a href="Storage/session.js"><i><b>JS (session)</b></i><a>   
+>  <kbd>double script imports</kbd> <kbd>script</kbd> <kbd>defer</kbd>   
+>  <kbd>console.log</kbd> <kbd>Storage</kbd> <kbd>localStorage</kbd> <kbd>sessionStorage</kbd> <kbd>getItem</kbd> <kbd>setItem</kbd>   
+>  <kbd>removeItem</kbd> <kbd>.clear()</kbd> <kbd>JSON.stringify()</kbd> <kbd>JSON.parse()</kbd> <kbd>Aplicações do Storage</kbd>       
